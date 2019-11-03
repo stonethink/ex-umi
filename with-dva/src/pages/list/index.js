@@ -24,7 +24,7 @@ function App(props) {
 
 export default connect(state => {
   return {
-    pathname: state.routing.location.pathname,
+    pathname: state.pathname, //state.routing.location.pathname,
     text: state.global.text,
     a: state.a,
     b: state.b,

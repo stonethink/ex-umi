@@ -9,3 +9,5 @@ func-test/www
 config.local.js
 yarn.lock
 
+.vscode
+
